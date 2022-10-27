@@ -21,7 +21,6 @@ Antes de instalar el vcenter haga una entrada en el dns
 
 ![](imgs/vcenter-b.png)
 
->**Y cuando aparezca la máquina virtual cambie a la red del DNS que en este caso es NAT**
 
 
 
@@ -44,6 +43,8 @@ Comenzará un asistente para la importación de vCenter appliance, deberá:
 4 - Establecer la contraseña de SSO
 
 5 - Establecer la contraseña de root
+
+> **Y cuando aparezca la máquina virtual en el inventario de máquinas cambie la conexión de la red virtual para que se encuentren en la misma red virtual el DNS, los ESXi-x, y demás máquinas involucradas**
 
 Esto dará inicio a la Fase 1, el tiempo medio de instalación es de unos 15 minutos
 
